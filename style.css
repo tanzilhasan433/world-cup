@@ -60,6 +60,11 @@ h1{
     font-weight: 700;
     border: 5px;
     background-color: white;
+    
+}
+
+.upcoming-a{
+    text-decoration: none;
 }
 #second{
     width: 190px;
@@ -90,11 +95,59 @@ h1{
     padding: 15px;
 }
 
+.chat-icon{
+    width: auto;
+    height: 18px;
+}
+
+.transfer{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, green, rgb(160, 250, 15));
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    border: 0;
+}
+
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-top: 20px;
+}
+
+.vs-team{
+    display: flex;
+    gap: 10px;
+}
+.argentina{
+    width: 100px;
+    height:auto;
+}
+.germany{
+    width: 100px;
+    height: auto;
+}
+.come{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+
+.icon{
+    display: flex;
+    gap: 15px;
+    
+}
+.icon-space{
+    margin-left: 30px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content:center;
+    gap: 10px;
 }
 
 .assets img{
